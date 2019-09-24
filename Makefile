@@ -1,5 +1,5 @@
 AUTOFLAKE_OPTS := --remove-all-unused-imports --remove-unused-variables --ignore-init-module-imports --recursive --in-place
-SOURCES := flask_blog tests
+SOURCES := flask_blog
 
 .PHONY: prepare
 prepare:
